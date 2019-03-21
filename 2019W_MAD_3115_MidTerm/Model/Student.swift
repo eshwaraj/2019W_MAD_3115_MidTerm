@@ -7,3 +7,11 @@
 //
 
 import Foundation
+struct student
+{
+    var sname:String
+    var sid:String
+    var email:String
+    var dob:String
+    var course:String
+}

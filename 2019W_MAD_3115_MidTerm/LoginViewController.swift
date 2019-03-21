@@ -32,6 +32,8 @@ class LoginViewController: UIViewController {
         else{
             
             let alert=UIAlertController(title: "alert", message: "wrong details", preferredStyle: .alert)
+            let actionCancel=UIAlertAction(title: "cancel", style: .cancel, handler: nil)
+            alert.addAction(actionCancel)
             self.present(alert, animated: true )
             
         }
