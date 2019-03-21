@@ -25,7 +25,7 @@ class LoginViewController: UIViewController {
     {
     
     let sb=UIStoryboard(name: "Main", bundle: nil)
-    let loginvc : StudentViewController = sb.instantiateViewController(withIdentifier: "lvc") as! StudentViewController
+    let loginvc : StudentEntryViewController = sb.instantiateViewController(withIdentifier: "lvc") as! StudentEntryViewController
       self.navigationController?.pushViewController(loginvc, animated: true)
         }
         

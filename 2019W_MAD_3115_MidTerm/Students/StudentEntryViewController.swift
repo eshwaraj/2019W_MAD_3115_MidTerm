@@ -9,14 +9,21 @@
 import UIKit
 
 class StudentEntryViewController: UIViewController {
-
+var CourseList=["madt","cat","wt","ghfgh"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
 
+    @IBAction func lbirthdte(_ sender: Any) {
+}
+    @IBOutlet weak var lblMail: UILabel!
+    @IBOutlet weak var lblCourse: UILabel!
+    @IBOutlet weak var lblGender: UILabel!
+    
+    @IBOutlet weak var lblSname: UILabel!
+    @IBOutlet weak var lblSid: UILabel!
     /*
     // MARK: - Navigation
 
@@ -25,6 +32,7 @@ class StudentEntryViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+     @IBOutlet weak var Picker: UIPickerView!
+     */
 
 }
